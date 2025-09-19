@@ -50,7 +50,7 @@ print("\033[96mBIRRUH BIDDAM NAFDHIKA YA AQSA 🇵🇸 LONG LIVE THE STRUGGLE �
 async def increment_view_count(session):
     try:
         async with session.get(url) as response:
-            if response.status == 200:
+            if response.status == 20:
                 print("\033[32m[÷]\033[31mHASBUNALLAH WANIKMAL WAKIL ▒▒\033[33m▒▒\033[92mNIKMAL MAULA WANIKMAN NASIR\033[33m▒▒\033[34mREQUEST\033[33m▒▒\033[31mSENT\033[37m▒▒\033[37m" +str(url)+ "\033[31m▒▒::")
             else:
                 print("\033[37m[÷]\033[33mHASBUNALLAH WANIKMAL WAKIL ▒▒\033[92m▒▒\033[97mNIKMAL MAULA WANIKMAN NASIR\033[34m▒▒\033[4mREQUEST\033[31m▒▒\033[33mSENT\033[37m▒▒\033[36m" +str(url)+ "\033[31m▒▒::")
